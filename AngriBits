@@ -1,0 +1,361 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _05.AngryBit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] Nums = new int[8];
+            for (int i = 0; i < 8; i++)
+            {
+                Nums[i] = int.Parse(Console.ReadLine());
+            }
+            int moveCount = 0;
+            int hits = 0;
+            int score = 0;
+            int backMove = 1;
+            int forward = 1;
+            //for (int i = 0; i < 8; i++)
+            //{
+            //    Console.WriteLine(
+            //    Convert.ToString(Nums[i], 2).PadLeft(16, '0'));
+
+            //}
+
+
+            for (int pos = 8; pos <= 15; pos++)
+            {
+                for (int i = 0; i < 8; i++)
+                {
+                    if (((Nums[i] >> pos) & 1) == 1) // chislo: 0 i pos: 9
+                    {
+                        int mask = ~(1 << pos);
+                        Nums[i] = Nums[i] & mask;
+                        backMove = 1;
+                        if (i==0)
+                        {
+                            forward = 1;
+                                for (int down = 1; down < 8; down++)
+                                {
+                                    int downPos = pos-forward;
+                                    moveCount++;
+                                        if ((Nums[down]>> downPos & 1) == 1)
+                                        {
+                                            if (down<7)
+                                            {
+                                                //when hit check around
+                                                if (downPos>0)
+                                                {
+                                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down + 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~(7 << (downPos - 1));
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                    Nums[down + 1] = Nums[down + 1] & mass;
+                                                }
+                                                else
+                                                {
+                                                    for (int hitCheck = 0; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down + 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~3;
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                    Nums[down + 1] = Nums[down + 1] & mass;
+                                                }
+                                                
+                                            }
+                                            else
+                                            {
+                                                if (downPos>0)
+                                                {
+                                                    //when hit check around
+                                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~(7 << (downPos - 1));
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                }
+                                                else
+                                                {
+                                                    for (int hitCheck = 0; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~3;
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                }
+                                            }
+                                            score = score + hits * moveCount;
+                                            hits = 0;
+                                            moveCount = 0;
+                                            break;
+                                        }
+                                        forward++;
+                                        if (downPos == 0)
+                                        {
+                                            forward = 1;
+                                            hits = 0;
+                                            moveCount = 0;
+                                            break;
+                                        }
+                                }
+                                hits = 0;
+                                moveCount = 0;
+                        }
+                        for (int chek = i-1; chek >= 0; chek--)
+                        {
+                            moveCount++;
+                            int nowPos = pos - backMove;
+                            
+                            if (((Nums[chek] >> (pos - backMove)) & 1) == 1)
+                            {
+                                if (chek > 0)
+                                {
+                                    //when hit check around
+                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                    {
+                                        if (((Nums[chek - 1] >> (pos - backMove + hitCheck)) & 1) == 1)
+                                        {
+                                            hits++;
+                                        }
+                                        if (((Nums[chek] >> (pos - backMove + hitCheck)) & 1) == 1)
+                                        {
+                                            hits++;
+                                        }
+                                        if (((Nums[chek + 1] >> (pos - backMove + hitCheck)) & 1) == 1)
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                    //Clear around when hit
+                                    int mass = ~(7 << (pos - backMove - 1));
+                                    Nums[chek - 1] = Nums[chek - 1] & mass;
+                                    Nums[chek] = Nums[chek] & mass;
+                                    Nums[chek + 1] = Nums[chek + 1] & mass;
+                                }
+                                else
+                                {
+                                    //when hit check around
+                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                    {
+                                        if (((Nums[chek] >> (pos - backMove + hitCheck)) & 1) == 1)
+                                        {
+                                            hits++;
+                                        }
+                                        if (((Nums[chek + 1] >> (pos - backMove + hitCheck)) & 1) == 1)
+                                        {
+                                            hits++;
+                                        }
+                                    }
+                                    //Clear around when hit
+                                    int masZero = ~(7 << (pos - backMove - 1));
+                                    Nums[chek] = Nums[chek] & masZero;
+                                    Nums[chek + 1] = Nums[chek + 1] & masZero;
+                                }
+                                score = score + hits * moveCount;
+                                hits = 0;
+                                moveCount = 0;
+                                break;
+                            }
+                            backMove++;
+                            if (chek == 0)
+                            {
+                                backMove = 1;
+                                forward = 1;
+                                for (int down = 1; down < 8; down++)
+                                {
+                                    int downPos = nowPos-forward;
+                                    moveCount++;
+                                        if ((Nums[down]>> downPos & 1) == 1)
+                                        {
+                                            if (down<7)
+                                            {
+                                                //when hit check around
+                                                if (downPos>0)
+                                                {
+                                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down + 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~(7 << (downPos - 1));
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                    Nums[down + 1] = Nums[down + 1] & mass;
+                                                }
+                                                else
+                                                {
+                                                    for (int hitCheck = 0; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down + 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~3;
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                    Nums[down + 1] = Nums[down + 1] & mass;
+                                                }
+                                                
+                                            }
+                                            else
+                                            {
+                                                if (downPos>0)
+                                                {
+                                                    //when hit check around
+                                                    for (int hitCheck = -1; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~(7 << (downPos - 1));
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                }
+                                                else
+                                                {
+                                                    for (int hitCheck = 0; hitCheck < 2; hitCheck++)
+                                                    {
+                                                        if (((Nums[down - 1] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+                                                        if (((Nums[down] >> (downPos + hitCheck)) & 1) == 1)
+                                                        {
+                                                            hits++;
+                                                        }
+
+                                                    }
+                                                    //Clear around when hit
+                                                    int mass = ~3;
+                                                    Nums[down - 1] = Nums[down - 1] & mass;
+                                                    Nums[down] = Nums[down] & mass;
+                                                }
+                                            }
+                                            score = score + hits * moveCount;
+                                            hits = 0;
+                                            moveCount = 0;
+                                            break;
+                                        }
+                                        forward++;
+                                        if (downPos == 0)
+                                        {
+                                            forward = 1;
+                                            hits = 0;
+                                            moveCount = 0;
+                                            break;
+                                        }
+                                }
+                                hits = 0;
+                                moveCount = 0;
+                            }
+                        }
+                        break;
+                    }
+                }
+            }
+            //for (int i = 0; i < 8; i++)
+            //{
+            //    Console.WriteLine(
+            //    Convert.ToString(Nums[i], 2).PadLeft(16, '0'));
+
+            //}
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    if (((Nums[i]>>j)& 1) ==1)
+                    {
+                        Console.WriteLine("{0} No", score);
+                        return;
+                    }
+                }
+            }
+
+            Console.WriteLine("{0} Yes",score);
+        }
+    }
+}
