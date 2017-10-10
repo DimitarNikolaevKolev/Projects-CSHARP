@@ -1,0 +1,7 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\bin\Debug\ReadFromFile.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\bin\Debug\ReadFromFile.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\bin\Debug\ReadFromFile.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\obj\Debug\ReadFromFile.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\obj\Debug\ReadFromFile.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\obj\Debug\ReadFromFile.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\ReadFromFile\ReadFromFile\bin\Debug\Values.txt

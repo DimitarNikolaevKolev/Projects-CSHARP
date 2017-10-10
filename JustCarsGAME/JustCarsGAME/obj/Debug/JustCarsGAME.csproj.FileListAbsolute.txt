@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\bin\Debug\JustCarsGAME.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\bin\Debug\JustCarsGAME.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\bin\Debug\JustCarsGAME.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\obj\Debug\JustCarsGAME.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\obj\Debug\JustCarsGAME.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\JustCarsGAME\JustCarsGAME\obj\Debug\JustCarsGAME.pdb
