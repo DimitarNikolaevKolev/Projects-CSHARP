@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\bin\Debug\UK-FLAG.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\bin\Debug\UK-FLAG.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\bin\Debug\UK-FLAG.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\obj\Debug\UK-FLAG.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\obj\Debug\UK-FLAG.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\UK-FLAG\UK-FLAG\obj\Debug\UK-FLAG.pdb
