@@ -1,0 +1,9 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\bin\Debug\BullsandCows.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\obj\Debug\BullsandCows.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\bin\Debug\BullsandCows.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\bin\Debug\BullsandCows.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\obj\Debug\BullsandCows.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\BullsandCows\BullsandCows\obj\Debug\BullsandCows.pdb
+C:\Users\dimit\Desktop\Soft Uni\Projects\BullsandCows\BullsandCows\bin\Debug\BullsandCows.exe.config
+C:\Users\dimit\Desktop\Soft Uni\Projects\BullsandCows\BullsandCows\obj\Debug\BullsandCows.exe
+C:\Users\dimit\Desktop\Soft Uni\Projects\BullsandCows\BullsandCows\obj\Debug\BullsandCows.pdb
