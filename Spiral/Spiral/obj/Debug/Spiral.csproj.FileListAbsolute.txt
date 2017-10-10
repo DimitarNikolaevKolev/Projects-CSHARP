@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\bin\Debug\Spiral.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\bin\Debug\Spiral.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\bin\Debug\Spiral.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\obj\Debug\Spiral.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\obj\Debug\Spiral.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Spiral\Spiral\obj\Debug\Spiral.pdb

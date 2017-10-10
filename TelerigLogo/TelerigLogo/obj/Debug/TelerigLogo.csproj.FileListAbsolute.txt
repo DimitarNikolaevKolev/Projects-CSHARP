@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\bin\Debug\TelerigLogo.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\bin\Debug\TelerigLogo.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\bin\Debug\TelerigLogo.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\obj\Debug\TelerigLogo.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\obj\Debug\TelerigLogo.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\TelerigLogo\TelerigLogo\obj\Debug\TelerigLogo.pdb

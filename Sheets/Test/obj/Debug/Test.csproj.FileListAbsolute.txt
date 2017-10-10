@@ -1,0 +1,6 @@
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\bin\Debug\Test.exe.config
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\bin\Debug\Test.exe
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\bin\Debug\Test.pdb
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\obj\Debug\Test.exe
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\obj\Debug\Test.pdb
+c:\Users\dellxps15z\documents\visual studio 2013\Projects\Sheets\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
