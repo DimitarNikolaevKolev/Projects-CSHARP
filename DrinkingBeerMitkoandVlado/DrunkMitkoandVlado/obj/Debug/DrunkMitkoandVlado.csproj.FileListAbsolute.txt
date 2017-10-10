@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\bin\Debug\DrunkMitkoandVlado.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\bin\Debug\DrunkMitkoandVlado.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\bin\Debug\DrunkMitkoandVlado.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\obj\Debug\DrunkMitkoandVlado.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\obj\Debug\DrunkMitkoandVlado.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\DrinkingBeerMitkoandVlado\DrunkMitkoandVlado\obj\Debug\DrunkMitkoandVlado.pdb

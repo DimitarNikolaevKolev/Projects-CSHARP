@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Fir Tree\Fir Tree\bin\Debug\Fir Tree.exe.config
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Fir Tree\Fir Tree\bin\Debug\Fir Tree.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Fir Tree\Fir Tree\bin\Debug\Fir Tree.pdb
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Fir Tree\Fir Tree\obj\Debug\Fir Tree.csprojResolveAssemblyReference.cache
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Fir Tree\Fir Tree\obj\Debug\Fir Tree.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Fir Tree\Fir Tree\obj\Debug\Fir Tree.pdb

@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\bin\Debug\Garden.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\bin\Debug\Garden.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\bin\Debug\Garden.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\obj\Debug\Garden.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\obj\Debug\Garden.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\GardenUnclePesho\Garden\obj\Debug\Garden.pdb

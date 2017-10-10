@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\bin\Debug\CoffeeVendingMachineProblem1.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\bin\Debug\CoffeeVendingMachineProblem1.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\bin\Debug\CoffeeVendingMachineProblem1.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\obj\Debug\CoffeeVendingMachineProblem1.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\obj\Debug\CoffeeVendingMachineProblem1.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CoffeeVendingMachine\CoffeeVendingMachineProblem1\obj\Debug\CoffeeVendingMachineProblem1.pdb

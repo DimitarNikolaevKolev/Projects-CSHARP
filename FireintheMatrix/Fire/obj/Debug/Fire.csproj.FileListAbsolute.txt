@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\bin\Debug\Fire.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\bin\Debug\Fire.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\bin\Debug\Fire.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\obj\Debug\Fire.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\obj\Debug\Fire.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\FireintheMatrix\Fire\obj\Debug\Fire.pdb
