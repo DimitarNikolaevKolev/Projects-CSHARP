@@ -1,0 +1,5 @@
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Carpets\Test\bin\Debug\Test.exe.config
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Carpets\Test\bin\Debug\Test.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Carpets\Test\bin\Debug\Test.pdb
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Carpets\Test\obj\Debug\Test.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Carpets\Test\obj\Debug\Test.pdb

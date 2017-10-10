@@ -1,0 +1,6 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\bin\Debug\CarpetsArray.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\obj\Debug\CarpetsArray.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\bin\Debug\CarpetsArray.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\bin\Debug\CarpetsArray.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\obj\Debug\CarpetsArray.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\CarpetsArray\CarpetsArray\obj\Debug\CarpetsArray.pdb
