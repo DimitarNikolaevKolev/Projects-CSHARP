@@ -1,0 +1,7 @@
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\bin\Debug\Test.exe.config
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\bin\Debug\Test.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\bin\Debug\Test.pdb
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\obj\Debug\Test.exe
+c:\users\dellxps15z\documents\visual studio 2013\Projects\Test\Test\obj\Debug\Test.pdb
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Test\Test\bin\Debug\Values.txt

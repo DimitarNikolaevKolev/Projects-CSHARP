@@ -1,0 +1,6 @@
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\bin\Debug\1.2-4-8.exe.config
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\bin\Debug\1.2-4-8.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\bin\Debug\1.2-4-8.pdb
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\obj\Debug\1.2-4-8.csprojResolveAssemblyReference.cache
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\obj\Debug\1.2-4-8.exe
+C:\Users\DellXPS15Z\Documents\Visual Studio 2013\Projects\Telerik05.11Morning\1.2-4-8\obj\Debug\1.2-4-8.pdb
